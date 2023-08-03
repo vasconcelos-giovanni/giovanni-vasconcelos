@@ -1,4 +1,11 @@
-# giovanni-vasconcelos
+# Giovanni Vasconcelos
+
+## 📚 My learning Journey
+
+Throughout this project, I had the opportunity to explore new concepts:
+
+- Bootstrap grid system;
+
 
 This template should help get you started developing with Vue 3 in Vite.
 
