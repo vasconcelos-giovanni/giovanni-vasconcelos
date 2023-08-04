@@ -27,12 +27,8 @@
         id="navbarNavDropdown"
       >
         <ul class="navbar-nav ms-auto">
-          <NavLink
-            href="#"
-            aria-current="page"
-            >Projects</NavLink
-          >
-          <NavLink href="#">Projects</NavLink>
+          <NavLink href="#">{{ $t('layouts.mainLayout.header.navbar.projects') }}</NavLink>
+          <NavLink href="#">{{ $t('layouts.mainLayout.header.navbar.aboutWebsite') }}</NavLink>
         </ul>
       </div>
     </div>

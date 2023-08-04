@@ -1,5 +1,5 @@
 <template>
-  <section class="d-flex bg-light shadow-lg">
+  <section class="d-flex bg-light flex-wrap shadow-lg">
     <div :class="state.sectionSides">
       <img
         src="../assets/user-photo.jpg"
@@ -11,7 +11,7 @@
       <div>
         <h1 class="fs-1 fw-light">Giovanni Vasconcelos</h1>
         <p class="fs-5 fw-light">
-          Full-Stack Web Developer PHP | JS | Laravel | Vue.js | Bootstrap | Tailwind CSS | MySQL
+          {{ $t('views.homeView.heroSection.userDescription') + state.heroDescriptionSufix }}
         </p>
       </div>
     </div>
@@ -22,7 +22,9 @@
 import { reactive } from 'vue';
 
 const state = reactive({
-  sectionSides: 'col-md-6 p-3 bg-transparent d-flex align-items-center justify-content-center',
+  sectionSides:
+    'col-12 col-md-6 p-3 bg-transparent d-flex align-items-center justify-content-center',
+  heroDescriptionSufix: 'PHP | JS | Laravel | Vue.js | Bootstrap | Tailwind CSS | MySQL',
 });
 </script>
 
