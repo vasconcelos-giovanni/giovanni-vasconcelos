@@ -9,7 +9,7 @@
     </div>
     <div :class="state.sectionSides">
       <div>
-        <p class="fs-1 fw-light">Giovanni Vasconcelos</p>
+        <h1 class="fs-1 fw-light">Giovanni Vasconcelos</h1>
         <p class="fs-5 fw-light">
           Full-Stack Web Developer PHP | JS | Laravel | Vue.js | Bootstrap | Tailwind CSS | MySQL
         </p>
