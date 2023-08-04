@@ -1,5 +1,5 @@
 <template>
-  <section class="d-flex bg-light flex-wrap shadow-lg">
+  <SectionTemplate class="d-flex bg-light flex-wrap shadow-lg">
     <div :class="state.sectionSides">
       <img
         src="../assets/user-photo.jpg"
@@ -9,16 +9,17 @@
     </div>
     <div :class="state.sectionSides">
       <div>
-        <h1 class="fs-1 fw-light">Giovanni Vasconcelos</h1>
+        <h1 class="fs-1">Giovanni Vasconcelos</h1>
         <p class="fs-5 fw-light">
           {{ $t('views.homeView.heroSection.userDescription') + state.heroDescriptionSufix }}
         </p>
       </div>
     </div>
-  </section>
+  </SectionTemplate>
 </template>
 
 <script setup>
+import { SectionTemplate } from './';
 import { reactive } from 'vue';
 
 const state = reactive({
