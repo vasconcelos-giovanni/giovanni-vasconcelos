@@ -1,12 +1,14 @@
 <template>
   <MainLayout>
     <template #hero>
-      <HeroSection />
+      <HeroArticle />
     </template>
+    <AboutUserSection />
   </MainLayout>
 </template>
 
 <script setup>
 import { MainLayout } from '../layouts';
-import { HeroSection } from '../components';
+import { HeroArticle } from '../components';
+import { AboutUserSection } from '../components';
 </script>

@@ -1,5 +1,5 @@
 <template>
-  <SectionTemplate class="d-flex bg-light flex-wrap shadow-lg">
+  <article class="d-flex bg-light flex-wrap shadow-lg">
     <div :class="state.sectionSides">
       <img
         src="../assets/user-photo.jpg"
@@ -8,14 +8,14 @@
       />
     </div>
     <div :class="state.sectionSides">
-      <div>
+      <SectionTemplate>
         <h1 class="fs-1">Giovanni Vasconcelos</h1>
         <p class="fs-5 fw-light">
-          {{ $t('views.homeView.heroSection.userDescription') + state.heroDescriptionSufix }}
+          {{ $t('views.homeView.heroArticle.userDescription') + state.heroDescriptionSufix }}
         </p>
-      </div>
+      </SectionTemplate>
     </div>
-  </SectionTemplate>
+  </article>
 </template>
 
 <script setup>
