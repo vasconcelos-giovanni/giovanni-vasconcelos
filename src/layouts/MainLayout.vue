@@ -5,7 +5,10 @@
 
   <main class="main-content">
     <slot name="hero" />
-    <slot class="p-4" />
+
+    <div class="p-4">
+      <slot />
+    </div>
   </main>
 
   <footer></footer>
