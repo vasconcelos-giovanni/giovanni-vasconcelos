@@ -1,5 +1,3 @@
-import { toRaw } from 'vue';
-
 export const en = {
   layouts: {
     mainLayout: {
