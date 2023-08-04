@@ -1,7 +1,5 @@
 <template>
-  <nav
-    class="position-fixed col-12 col-md-10 col-lg-8 col-xl-6 navbar navbar-expand-lg bg-light shadow-lg"
-  >
+  <nav class="position-fixed col-12 col-md-10 col-lg-8 col-xl-6 navbar navbar-expand-lg bg-light">
     <div class="container-fluid">
       <a
         class="navbar-brand"
