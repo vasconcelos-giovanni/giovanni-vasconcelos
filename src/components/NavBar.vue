@@ -44,5 +44,5 @@ import { LanguageSwitcher } from '.';
 import { breakpointsTailwind, useBreakpoints } from '@vueuse/core';
 
 const breakpoints = useBreakpoints(breakpointsTailwind);
-const isDesktop = breakpoints.greater('md');
+const isDesktop = breakpoints.greater('lg');
 </script>
