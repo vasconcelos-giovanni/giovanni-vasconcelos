@@ -8,12 +8,12 @@
       />
     </div>
     <div :class="state.sectionSides">
-      <SectionTemplate>
+      <div>
         <h1 class="fs-1">Giovanni Vasconcelos</h1>
-        <p class="fs-5 fw-light">
+        <p class="fs-5 fw-light text-center">
           {{ $t('views.homeView.heroArticle.userDescription') + state.heroDescriptionSufix }}
         </p>
-      </SectionTemplate>
+      </div>
     </div>
   </article>
 </template>
