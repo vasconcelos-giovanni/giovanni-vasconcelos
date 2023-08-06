@@ -3,7 +3,7 @@
     "mainLayout": {
       "header": {
         "navbar": {
-          "projects": "Projects",
+          "portifolio": "Portifolio",
           "aboutWebsite": "About Website"
         }
       },
