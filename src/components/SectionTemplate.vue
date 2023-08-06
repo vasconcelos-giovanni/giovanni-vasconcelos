@@ -4,7 +4,7 @@
   </section>
 </template>
 
-<style lang="scss" scoped>
+<style lang="scss">
 p {
   text-align: justify;
 }
