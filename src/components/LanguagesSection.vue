@@ -15,6 +15,7 @@
         {{ $t('views.homeView.aboutUserArticle.languagesSection.languagesList.ptLi2') }}
       </li>
     </ul>
+    <br />
   </SectionTemplate>
 </template>
 
