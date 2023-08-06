@@ -15,9 +15,52 @@
       "heroArticle": {
         "userDescription": "Full-Stack Web Developer "
       },
-      "aboutUserSection": {
-        "heading": "About me",
-        "p0": "With a passion for learning and a keen focus on practical and maintainable solutions, I thrive on tackling challenges head-on while embracing effective communication. My journey in web development is guided by a commitment to continuous growth and delivering high-quality results. Something else." 
+      "aboutUserArticle": {
+        "aboutSection": {
+          "heading": "About me",
+          "p0": "With a passion for learning and a keen focus on practical and maintainable solutions, I thrive on tackling challenges head-on while embracing effective communication. My journey in web development is guided by a commitment to continuous growth and delivering high-quality results." 
+        },
+        "skillsArticle": {
+          "heading": "Skills",
+          "programmingLanguagesSection": {
+            "heading": "Programming Languages"
+          },
+          "frontendSection": {
+            "heading": "Front-end"
+          },
+          "backendSection": {
+            "heading": "Back-end"
+          },
+          "databaseSection": {
+            "heading": "Database"
+          },
+          "othersSection": {
+            "heading": "Others"
+          }
+        },
+        "languagesSection": {
+          "heading": "Languages",
+          "languagesList": {
+            "enLi0": "Fluent",
+            "esLi1": "Advanced",
+            "ptLi2": "Native"
+          }
+        },
+        "educationSection": {
+          "heading": "Education",
+          "degreesList": {
+            "li0": {
+              "degree": "Degree in System Analysis and Development",
+              "institution": "IFRN - Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte (Federal Institute of Education, Science and Technology Rio Grande do Norte)",
+              "time": "2022 - today"
+            },
+            "li1": {
+              "degree": "Information Technology certificate and High School",
+              "institution": "IFRN - Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte (Federal Institute of Education, Science and Technology Rio Grande do Norte)",
+              "time": "2017 - 2021"
+            }
+          }
+        }
       }
     }
   }
