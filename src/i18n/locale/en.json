@@ -60,6 +60,20 @@
               "time": "2017 - 2021"
             }
           }
+        },
+        "portifolioSection": {
+          "heading": "Portifolio Showcase",
+          "slides": {
+            "slide0": {
+              "alt": "GioChirps project showcase"
+            },
+            "slide1": {
+              "alt": "Books project showcase"
+            },
+            "slide2": {
+              "alt": "Crystal Ball of Divination project showcase"
+            }
+          }
         }
       }
     }
