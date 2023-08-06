@@ -10,9 +10,11 @@ import MainFooter from './MainFooter.vue';
 import NavBar from './NavBar.vue';
 import NavLink from './NavLink.vue';
 import OthersSection from './OthersSection.vue';
-import ProgrammingLanguagesSection from './ProgrammingLanguagesSection.vue';
+import PortifolioArticle from './PortifolioArticle.vue';
 import PortifolioItemSlide from './PortifolioItemSlide.vue';
 import PortifolioSection from './PortifolioSection.vue';
+import PortifolioSlideShow from './PortifolioSlideshow.vue';
+import ProgrammingLanguagesSection from './ProgrammingLanguagesSection.vue';
 import SectionTemplate from './SectionTemplate.vue';
 import SkillsArticle from './SkillsArticle.vue';
 import SkillImage from './SkillImage.vue';
@@ -32,8 +34,10 @@ export {
   NavLink,
   OthersSection,
   ProgrammingLanguagesSection,
+  PortifolioArticle,
   PortifolioItemSlide,
   PortifolioSection,
+  PortifolioSlideShow,
   SectionTemplate,
   SkillsArticle,
   SkillImage,
