@@ -4,6 +4,7 @@
       <HeroArticle />
     </template>
     <article>
+      <PortifolioSection />
       <AboutUserSection />
       <SkillsArticle />
       <LanguagesSection />
@@ -18,6 +19,7 @@ import {
   EducationSection,
   HeroArticle,
   LanguagesSection,
+  PortifolioSection,
   SkillsArticle,
 } from '../components';
 import { MainLayout } from '../layouts';
