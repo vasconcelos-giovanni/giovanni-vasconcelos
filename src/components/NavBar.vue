@@ -11,6 +11,7 @@
           style="height: 3rem"
         />
       </a>
+      <LanguageSwitcher v-if="!isDesktop" />
       <button
         class="navbar-toggler"
         type="button"
@@ -29,14 +30,19 @@
         <ul class="navbar-nav ms-auto">
           <NavLink href="#">{{ $t('layouts.mainLayout.header.navbar.portifolio') }}</NavLink>
           <NavLink href="#">{{ $t('layouts.mainLayout.header.navbar.aboutWebsite') }}</NavLink>
-          <LanguageSwitcher />
+          <LanguageSwitcher v-if="isDesktop" />
         </ul>
       </div>
     </div>
   </nav>
+  ""
 </template>
 
 <script setup>
 import { NavLink } from '.';
 import { LanguageSwitcher } from '.';
+import { breakpointsTailwind, useBreakpoints } from '@vueuse/core';
+
+const breakpoints = useBreakpoints(breakpointsTailwind);
+const isDesktop = breakpoints.greater('md');
 </script>
