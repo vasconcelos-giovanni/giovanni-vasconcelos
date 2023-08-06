@@ -1,7 +1,7 @@
 <template>
   <li class="nav-item">
     <a
-      class="nav-link active"
+      class="nav-link"
       v-bind="$attrs"
     >
       <slot />
