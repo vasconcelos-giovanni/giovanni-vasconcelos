@@ -29,6 +29,7 @@
         <ul class="navbar-nav ms-auto">
           <NavLink href="#">{{ $t('layouts.mainLayout.header.navbar.portifolio') }}</NavLink>
           <NavLink href="#">{{ $t('layouts.mainLayout.header.navbar.aboutWebsite') }}</NavLink>
+          <LanguageSwitcher />
         </ul>
       </div>
     </div>
@@ -37,4 +38,5 @@
 
 <script setup>
 import { NavLink } from '.';
+import { LanguageSwitcher } from '.';
 </script>

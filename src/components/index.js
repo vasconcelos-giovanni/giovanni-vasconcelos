@@ -6,6 +6,7 @@ import EducationSection from './EducationSection.vue';
 import FrontendSection from './FrontendSection.vue';
 import HeroArticle from './HeroArticle.vue';
 import LanguagesSection from './LanguagesSection.vue';
+import LanguageSwitcher from './LanguageSwitcher.vue';
 import MainFooter from './MainFooter.vue';
 import NavBar from './NavBar.vue';
 import NavLink from './NavLink.vue';
@@ -29,6 +30,7 @@ export {
   FrontendSection,
   HeroArticle,
   LanguagesSection,
+  LanguageSwitcher,
   MainFooter,
   NavBar,
   NavLink,
