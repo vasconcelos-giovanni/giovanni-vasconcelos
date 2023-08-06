@@ -1,0 +1,81 @@
+{
+  "layouts": {
+    "mainLayout": {
+      "header": {
+        "navbar": {
+          "portifolio": "Portfólio",
+          "aboutWebsite": "Sobre o Website"
+        }
+      },
+      "footer": {}
+    }
+  },
+  "views": {
+    "homeView": {
+      "heroArticle": {
+        "userDescription": "Desenvolvedor Web Full-Stack"
+      },
+      "aboutUserArticle": {
+        "aboutSection": {
+          "heading": "Sobre mim",
+          "p0": "Com paixão por aprender e foco em soluções práticas e sustentáveis, eu gosto de enfrentar desafios de frente e valorizo uma comunicação eficaz. Minha jornada no desenvolvimento web é guiada por um compromisso com o crescimento contínuo e a entrega de resultados de alta qualidade."
+        },
+        "skillsArticle": {
+          "heading": "Habilidades",
+          "programmingLanguagesSection": {
+            "heading": "Linguagens de Programação"
+          },
+          "frontendSection": {
+            "heading": "Front-end"
+          },
+          "backendSection": {
+            "heading": "Back-end"
+          },
+          "databaseSection": {
+            "heading": "Banco de Dados"
+          },
+          "othersSection": {
+            "heading": "Outras"
+          }
+        },
+        "languagesSection": {
+          "heading": "Idiomas",
+          "languagesList": {
+            "enLi0": "Fluente",
+            "esLi1": "Avançado",
+            "ptLi2": "Nativo"
+          }
+        },
+        "educationSection": {
+          "heading": "Educação",
+          "degreesList": {
+            "li0": {
+              "degree": "Bacharelado em Análise e Desenvolvimento de Sistemas",
+              "institution": "IFRN - Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte",
+              "time": "2022 - hoje"
+            },
+            "li1": {
+              "degree": "Certificado em Tecnologia da Informação e Ensino Médio",
+              "institution": "IFRN - Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte",
+              "time": "2017 - 2021"
+            }
+          }
+        },
+        "portifolioSection": {
+          "heading": "Exibição do Portfólio",
+          "slides": {
+            "slide0": {
+              "alt": "Exibição do projeto GioChirps"
+            },
+            "slide1": {
+              "alt": "Exibição do projeto Books"
+            },
+            "slide2": {
+              "alt": "Exibição do projeto Crystal Ball of Divination"
+            }
+          }
+        }
+      }
+    }
+  }
+}
