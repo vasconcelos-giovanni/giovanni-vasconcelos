@@ -11,11 +11,13 @@
     </div>
   </main>
 
-  <footer></footer>
+  <footer class="p-4 border-top border-secondary border-opacity-50">
+    <MainFooter />
+  </footer>
 </template>
 
 <script setup>
-import { NavBar } from '../components';
+import { MainFooter, NavBar } from '../components';
 </script>
 
 <style scoped>
