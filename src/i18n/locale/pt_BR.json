@@ -50,25 +50,25 @@
           "heading": "Educação",
           "degreesList": {
             "li0": {
-              "degree": "Bacharelado em Análise e Desenvolvimento de Sistemas",
+              "degree": "Análise e Desenvolvimento de Sistemas",
               "institution": "IFRN - Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte",
               "time": "2022 - hoje"
             },
             "li1": {
-              "degree": "Certificado em Tecnologia da Informação e Ensino Médio",
+              "degree": "Técnico de Informática e Ensino Médio",
               "institution": "IFRN - Instituto Federal de Educação, Ciência e Tecnologia do Rio Grande do Norte",
               "time": "2017 - 2021"
             }
           }
         },
         "portifolioSection": {
-          "heading": "Exibição do Portfólio",
+          "heading": "Projetos do Portfólio",
           "slides": {
             "slide0": {
               "alt": "Exibição do projeto GioChirps"
             },
             "slide1": {
-              "alt": "Exibição do projeto Books"
+              "alt": "Exibição do projeto Books Recorder"
             },
             "slide2": {
               "alt": "Exibição do projeto Crystal Ball of Divination"
