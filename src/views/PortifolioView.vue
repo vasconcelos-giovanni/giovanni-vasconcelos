@@ -1,10 +1,10 @@
 <template>
   <MainLayout>
-    <template #hero> </template>
+    <PortifolioCardsArticle />
   </MainLayout>
 </template>
 
 <script setup>
 import { MainLayout } from '../layouts';
-// import { PortifolioView } from '../components';
+import { PortifolioCardsArticle } from '../components';
 </script>
