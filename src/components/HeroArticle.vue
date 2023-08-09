@@ -4,7 +4,7 @@
       <img
         src="../assets/user-photo.jpg"
         class="user-photo rounded-circle"
-        alt="..."
+        alt="Giovanni Vasconcelos"
       />
     </div>
     <div :class="state.sectionSides">
@@ -19,7 +19,6 @@
 </template>
 
 <script setup>
-import { SectionTemplate } from './';
 import { reactive } from 'vue';
 
 const state = reactive({
