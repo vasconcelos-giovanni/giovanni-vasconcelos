@@ -1,7 +1,12 @@
 <template>
   <h2>{{ $t('views.homeView.aboutUserArticle.portifolioSection.heading') }}</h2>
   <PortifolioArticle />
-  <p>Go to <a href="#">Portifolio Page</a></p>
+  <router-link
+    :to="{ name: 'portifolio' }"
+    class="text-decoration-none"
+  >
+    Go to Portifolio Page</router-link
+  >
 </template>
 
 <script setup>
