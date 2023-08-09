@@ -1,16 +1,16 @@
 <template>
   <nav class="position-fixed col-12 col-md-10 col-lg-8 col-xl-6 navbar navbar-expand-lg bg-light">
     <div class="container-fluid">
-      <a
-        class="navbar-brand"
-        href="#"
+      <router-link
+        :to="{ name: 'home' }"
+        class="navbar-brand text-decoration-none"
       >
         <img
           src="../assets/logo.svg"
           alt=""
           style="height: 3rem"
         />
-      </a>
+      </router-link>
       <LanguageSwitcher v-if="!isDesktop" />
       <button
         class="navbar-toggler"
@@ -28,8 +28,13 @@
         id="navbarNavDropdown"
       >
         <ul class="navbar-nav ms-auto">
-          <NavLink href="#">{{ $t('layouts.mainLayout.header.navbar.portifolio') }}</NavLink>
-          <NavLink href="#">{{ $t('layouts.mainLayout.header.navbar.aboutWebsite') }}</NavLink>
+          <router-link
+            :to="{ name: 'portifolio' }"
+            class="text-decoration-none"
+          >
+            <NavLink>{{ $t('layouts.mainLayout.header.navbar.portifolio') }}</NavLink>
+          </router-link>
+          <NavLink>{{ $t('layouts.mainLayout.header.navbar.aboutWebsite') }}</NavLink>
           <LanguageSwitcher v-if="isDesktop" />
         </ul>
       </div>
