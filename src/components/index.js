@@ -12,6 +12,7 @@ import NavBar from './NavBar.vue';
 import NavLink from './NavLink.vue';
 import OthersSection from './OthersSection.vue';
 import PortifolioArticle from './PortifolioArticle.vue';
+import PortifolioCardsArticle from './PortifolioCardsArticle.vue';
 import PortifolioItemSlide from './PortifolioItemSlide.vue';
 import PortifolioSection from './PortifolioSection.vue';
 import PortifolioSlideShow from './PortifolioSlideshow.vue';
@@ -37,6 +38,7 @@ export {
   OthersSection,
   ProgrammingLanguagesSection,
   PortifolioArticle,
+  PortifolioCardsArticle,
   PortifolioItemSlide,
   PortifolioSection,
   PortifolioSlideShow,
