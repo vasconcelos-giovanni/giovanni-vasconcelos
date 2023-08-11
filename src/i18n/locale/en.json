@@ -3,11 +3,14 @@
     "mainLayout": {
       "header": {
         "navbar": {
+          "home": "Home",
           "portifolio": "Portifolio",
           "aboutWebsite": "About Website"
         }
       },
-      "footer": {}
+      "footer": {
+        "findMe": "Find me"
+      }
     }
   },
   "views": {
