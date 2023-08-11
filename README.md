@@ -1,45 +1,71 @@
-# Giovanni Vasconcelos
+# Giovanni Vasconcelos Portfolio: Showcasing Achievements with Elegance
 
-## 📚 My learning Journey
+## 📌 Project idea
 
-Throughout this project, I had the opportunity to explore new concepts:
+Giovanni Vasconcelos Portfolio is an embodiment of my professional journey, meticulously crafted to exhibit my resume and projects within an alluring and contemporary digital space.
 
-- Bootstrap grid system;
+## 💡 Key Features
 
-## Getting Started
-## Recommended IDE Setup
+✅ Bilingual Experience: Seamlessly switch between English and Portuguese to cater to a diverse audience;
+
+✅ Universal Adaptability: Ensuring an optimal user experience across a spectrum of devices and screen sizes.
+
+## 🔧 Technologies
+
+![Vue.js](https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D)
+![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
+
+## 🏗️ Development Details
+
+Conceptualized as a Single Page Application (SPA), I harnessed the power of the Axios library for streamlined HTTP requests. The I18N library was instrumental in achieving seamless internationalization, and the GitHub API seamlessly integrates to spotlight a curated selection of projects.
+
+## 📚 My Learning Journey
+
+The expedition of crafting Giovanni Vasconcelos Portfolio has equipped me with profound proficiencies in:
+
+📌 Mastery of the Bootstrap grid system, underpinning impeccable responsiveness.
+
+📌 Skillful application of internationalization techniques for fluid multilingual translation.
+
+📌 Expertise in harnessing third-party APIs, amplifying the website's capabilities.
+
+📌 Proficiency in Vue.js Composition API, unlocking dynamic and efficient web development.
+
+## Documentation
+
+### Getting Started
+
+#### Recommended IDE Setup
 
 [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
 
-## Customize configuration
+#### Customize configuration
 
 See [Vite Configuration Reference](https://vitejs.dev/config/).
 
-## Project Setup
+#### Project Setup
 
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+#### Compile and Hot-Reload for Development
 
 ```sh
 npm run dev
 ```
 
-### Compile and Minify for Production
+#### Compile and Minify for Production
 
 ```sh
 npm run build
 ```
 
-### Lint with [ESLint](https://eslint.org/)
+#### Lint with [ESLint](https://eslint.org/)
 
 ```sh
 npm run lint
 ```
-
-## Documentation
 
 ### Instructions for languages files
 
