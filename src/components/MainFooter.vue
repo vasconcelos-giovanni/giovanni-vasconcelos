@@ -1,6 +1,6 @@
 <template>
   <div class="d-flex flex-column align-items-center">
-    <h2 class="fs-6">Find me</h2>
+    <h2 class="fs-6">{{ $t('layouts.mainLayout.footer.findMe') }}</h2>
     <ul class="list-unstyled d-flex flex-wrap">
       <li class="me-3">
         <a href="mailto:vasconcelos.giovanni@hotmail.com">E-mail</a>
