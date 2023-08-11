@@ -11,6 +11,7 @@ import MainFooter from './MainFooter.vue';
 import NavBar from './NavBar.vue';
 import NavLink from './NavLink.vue';
 import OthersSection from './OthersSection.vue';
+import PagePlaceholder from './PagePlaceholder.vue';
 import PortifolioArticle from './PortifolioArticle.vue';
 import PortifolioCardsArticle from './PortifolioCardsArticle.vue';
 import PortifolioItemSlide from './PortifolioItemSlide.vue';
@@ -36,12 +37,13 @@ export {
   NavBar,
   NavLink,
   OthersSection,
-  ProgrammingLanguagesSection,
+  PagePlaceholder,
   PortifolioArticle,
   PortifolioCardsArticle,
   PortifolioItemSlide,
   PortifolioSection,
   PortifolioSlideShow,
+  ProgrammingLanguagesSection,
   SectionTemplate,
   SkillsArticle,
   SkillImage,
