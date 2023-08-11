@@ -1,5 +1,8 @@
 <template>
   <article>
+    <div v-if="repos.length === 0">
+      <PagePlaceholder />
+    </div>
     <ul class="list-group list-group-flush">
       <li
         class="list-group-item p-3"
@@ -13,7 +16,7 @@
           </p>
           <ul class="list-unstyled d-flex flex-wrap gap-2">
             <li
-              class="badge fs-6 text-secondary border border-secondary rounded-pill"
+              class="badge fs-6 text-primary border border-primary rounded-pill"
               v-for="topic of repo.topics"
               :key="topic"
             >
@@ -42,7 +45,7 @@
             </a>
             <a
               :href="repo.homepage"
-              class="btn btn-outline-secondary"
+              class="btn btn-outline-dark"
               v-if="repo.homepage != '' && repo.homepage != null"
               >💿 Live demo</a
             >
@@ -56,6 +59,7 @@
 <script setup>
 import { ref, onMounted } from 'vue';
 import axios from 'axios';
+import { PagePlaceholder } from '.';
 
 // Repos GET
 const repos = ref([]);
