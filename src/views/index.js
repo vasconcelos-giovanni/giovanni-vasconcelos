@@ -1,4 +1,5 @@
+import AboutWebsiteView from './AboutWebsiteView.vue';
 import HomeView from './HomeView.vue';
 import PortifolioView from './PortifolioView.vue';
 
-export { HomeView, PortifolioView };
+export { AboutWebsiteView, HomeView, PortifolioView };
