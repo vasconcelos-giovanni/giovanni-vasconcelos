@@ -82,13 +82,11 @@ async function fetchRepos() {
     const filteredRepos = response.data.filter((repo) => !repo.fork && repo.name != USERNAME);
     return filteredRepos;
   } catch (error) {
-    console.error('Error fetching repositories:', error);
+    throw `Error fetching repositories: ${error}`;
   }
 }
 
 async function scoreRepos(repos) {
-  // const repos = await fetchRepos();
-
   for (const repo of repos) {
     repo.score = 0;
 
