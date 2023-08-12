@@ -62,7 +62,18 @@ const USERNAME = 'vasconcelos-giovanni';
 /**
  * Topics hierarchy defined by the programmer in ascending order.
  */
-const TOPIC_HIERARCHY = ['bootstrap', 'vuejs', 'laravel'];
+const TOPIC_HIERARCHY = [
+  'html',
+  'css',
+  'js',
+  'php',
+  'tailwindcss',
+  'sass',
+  'bootstrap',
+  'mysql',
+  'vuejs',
+  'laravel',
+];
 const repos = ref([]);
 
 async function fetchRepos() {
