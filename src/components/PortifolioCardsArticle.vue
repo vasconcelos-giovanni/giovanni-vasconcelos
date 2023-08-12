@@ -1,8 +1,6 @@
 <template>
   <article>
-    <div v-if="repos.length === 0">
-      <PagePlaceholder />
-    </div>
+    <PagePlaceholder v-if="repos.length === 0" />
     <ul class="list-group list-group-flush">
       <li
         class="list-group-item p-3"
@@ -59,25 +57,64 @@
 <script setup>
 import { ref, onMounted } from 'vue';
 import axios from 'axios';
-import { PagePlaceholder } from '.';
 
-// Repos GET
+const USERNAME = 'vasconcelos-giovanni';
+/**
+ * Topics hierarchy defined by the programmer in ascending order.
+ */
+const TOPIC_HIERARCHY = ['bootstrap', 'vuejs', 'laravel'];
 const repos = ref([]);
 
-const getRepos = async () => {
+async function fetchRepos() {
   try {
-    const response = await axios.get('https://api.github.com/users/vasconcelos-giovanni/repos');
-    const filteredRepos = response.data.filter((repo) => !repo.fork);
-    repos.value = filteredRepos
-      .sort((repo1, repo2) => repo2.stargazers_count - repo1.stargazers_count)
-      .slice(0, 6);
+    const response = await axios.get(`https://api.github.com/users/${USERNAME}/repos`);
+    const filteredRepos = response.data.filter((repo) => !repo.fork && repo.name != USERNAME);
+    return filteredRepos;
   } catch (error) {
     console.error('Error fetching repositories:', error);
   }
-};
+}
+
+async function scoreRepos(repos) {
+  // const repos = await fetchRepos();
+
+  for (const repo of repos) {
+    repo.score = 0;
+
+    if (repo.topics && repo.topics.length > 0) {
+      for (const topic of repo.topics) {
+        if (TOPIC_HIERARCHY.includes(topic)) {
+          repo.score += TOPIC_HIERARCHY.indexOf(topic) + 1;
+        }
+      }
+    }
+  }
+
+  return repos;
+}
+
+async function sortRepos(repos) {
+  repos.sort((a, b) => {
+    if (a.score !== b.score) {
+      return b.score - a.score;
+    } else {
+      return new Date(b.updated_at) - new Date(a.updated_at);
+    }
+  });
+
+  return repos;
+}
+
+async function getRepos() {
+  const unscoredRepos = await fetchRepos();
+  const unsortedRepos = await scoreRepos(unscoredRepos);
+  const repos = await sortRepos(unsortedRepos);
+
+  return repos;
+}
 
 onMounted(async () => {
-  getRepos();
+  repos.value = await getRepos();
 });
 
 // GitHub button icon switching to dark and light
