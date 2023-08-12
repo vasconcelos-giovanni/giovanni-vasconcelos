@@ -57,15 +57,30 @@
 <script setup>
 import { ref, onMounted } from 'vue';
 import axios from 'axios';
-import { TOPIC_HIERARCHY } from '../assets/constants';
 
-const USERNAME = 'vasconcelos-giovanni';
+const GH_USERNAME = 'vasconcelos-giovanni';
+/**
+ * Topics hierarchy defined by the programmer in ascending order.
+ */
+const TOPIC_HIERARCHY = [
+  'html',
+  'css',
+  'js',
+  'php',
+  'tailwindcss',
+  'sass',
+  'bootstrap',
+  'mysql',
+  'vuejs',
+  'laravel',
+];
+
 const repos = ref([]);
 
 async function fetchRepos() {
   try {
-    const response = await axios.get(`https://api.github.com/users/${USERNAME}/repos`);
-    const filteredRepos = response.data.filter((repo) => !repo.fork && repo.name != USERNAME);
+    const response = await axios.get(`https://api.github.com/users/${GH_USERNAME}/repos`);
+    const filteredRepos = response.data.filter((repo) => !repo.fork && repo.name != GH_USERNAME);
     return filteredRepos;
   } catch (error) {
     throw `Error fetching repositories: ${error}`;
