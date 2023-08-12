@@ -57,23 +57,9 @@
 <script setup>
 import { ref, onMounted } from 'vue';
 import axios from 'axios';
+import { TOPIC_HIERARCHY } from '../assets/constants';
 
 const USERNAME = 'vasconcelos-giovanni';
-/**
- * Topics hierarchy defined by the programmer in ascending order.
- */
-const TOPIC_HIERARCHY = [
-  'html',
-  'css',
-  'js',
-  'php',
-  'tailwindcss',
-  'sass',
-  'bootstrap',
-  'mysql',
-  'vuejs',
-  'laravel',
-];
 const repos = ref([]);
 
 async function fetchRepos() {
@@ -114,10 +100,23 @@ async function sortRepos(repos) {
   return repos;
 }
 
+function sortTopics(technologies) {
+  const topicsHierarchyReversed = TOPIC_HIERARCHY.reverse();
+  return technologies.sort((a, b) => {
+    const indexA = topicsHierarchyReversed.indexOf(a);
+    const indexB = topicsHierarchyReversed.indexOf(b);
+    return indexA - indexB;
+  });
+}
+
 async function getRepos() {
   const unscoredRepos = await fetchRepos();
   const unsortedRepos = await scoreRepos(unscoredRepos);
   const repos = await sortRepos(unsortedRepos);
+
+  for (const repo of repos) {
+    sortTopics(repo.topics);
+  }
 
   return repos;
 }
