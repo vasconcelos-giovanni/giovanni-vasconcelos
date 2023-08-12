@@ -21,7 +21,7 @@ Conceptualized as a Single Page Application (SPA), I harnessed the power of the 
 
 ## 📚 My Learning Journey
 
-The expedition of crafting Giovanni Vasconcelos Portfolio has equipped me with profound proficiencies in:
+The journey of crafting Giovanni Vasconcelos Portfolio has been a transformative experience that has enriched my skill set and knowledge in several key areas:
 
 📌 Mastery of the Bootstrap grid system, underpinning impeccable responsiveness.
 
@@ -30,6 +30,14 @@ The expedition of crafting Giovanni Vasconcelos Portfolio has equipped me with p
 📌 Expertise in harnessing third-party APIs, amplifying the website's capabilities.
 
 📌 Proficiency in Vue.js Composition API, unlocking dynamic and efficient web development.
+
+📌 Crafting efficient functions to fetch, score, and sort repositories dynamically from the GitHub API, demonstrating a solid understanding of asynchronous programming and data manipulation.
+
+📌 Utilizing Axios to perform streamlined HTTP requests, showcasing proficiency in integrating external data sources.
+
+📌 Implementing topic-based scoring and sorting algorithms to dynamically arrange repositories in a meaningful order, showcasing problem-solving skills and algorithmic thinking.
+
+This journey has not only allowed me to create an elegant and functional portfolio but has also deepened my understanding of modern web development practices, software architecture, and effective communication of technical concepts.
 
 ## Documentation
 
