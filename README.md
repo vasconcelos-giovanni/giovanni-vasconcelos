@@ -4,6 +4,10 @@
 
 Giovanni Vasconcelos Portfolio is an embodiment of my professional journey, meticulously crafted to exhibit my resume and projects within an alluring and contemporary digital space.
 
+## 💿 Live Demo
+
+Check out the live demo here: [Giovanni Vasconcelos](https://vasconcelos-giovanni.github.io/giovanni-vasconcelos)
+
 ## 💡 Key Features
 
 ✅ Bilingual Experience: Seamlessly switch between English and Portuguese to cater to a diverse audience;
