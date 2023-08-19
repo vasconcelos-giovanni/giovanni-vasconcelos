@@ -24,7 +24,7 @@ import { reactive } from 'vue';
 const state = reactive({
   sectionSides:
     'col-12 col-md-6 p-3 bg-transparent d-flex align-items-center justify-content-center',
-  heroDescriptionSufix: 'PHP | JS | Laravel | Vue.js | Bootstrap | Tailwind CSS | MySQL',
+  heroDescriptionSufix: 'PHP | JS | Laravel | Vue.js | Bootstrap | MySQL',
 });
 </script>
 
